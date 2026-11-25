@@ -1,18 +1,1 @@
-{
-  "name": "ARIA — Mon espace personnel",
-  "short_name": "ARIA",
-  "start_url": "./",
-  "scope": "./",
-  "display": "standalone",
-  "background_color": "#f7f4ef",
-  "theme_color": "#eee6dc",
-  "description": "Ton organiseur personnel, agenda et suivi de progression.",
-  "icons": [
-    {
-      "src": "icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
-    }
-  ]
-}
+{"name":"ARIA — Mon organisation","short_name":"ARIA","start_url":"./","display":"standalone","background_color":"#f6f0e9","theme_color":"#f6f0e9","lang":"fr","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}

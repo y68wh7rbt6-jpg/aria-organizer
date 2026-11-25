@@ -1,0 +1,23 @@
+ARIA — VERSION 2
+
+Contenu : index.html, styles.css, app.js, manifest.webmanifest, icon.svg, sw.js.
+
+INSTALLATION
+1. Décompressez le ZIP.
+2. Remplacez les fichiers du dépôt GitHub par les fichiers de ce dossier (à la racine, sans créer de sous-dossier).
+3. Netlify redéploiera le site si le dépôt GitHub est déjà connecté.
+4. Ouvrez le site sur le même appareil et dans le même navigateur qu'avant.
+
+DONNÉES
+L'application conserve la clé localStorage "aria-data-v1" et les tableaux existants tasks/events. Les nouveaux tableaux objectives/timeEntries sont ajoutés sans supprimer les données précédentes. Les données restent dans le navigateur de l'appareil : elles ne sont pas synchronisées entre appareils.
+
+IMPORTANT
+Avant le remplacement, exportez si possible une sauvegarde depuis l'application actuelle. Cette version propose aussi un export/import JSON.
+
+FONCTIONS
+- 7 univers et objectifs illimités
+- tâches liées aux objectifs, progression automatique selon les tâches terminées
+- agenda jour/semaine/mois/année, ajout et modification de rendez-vous
+- suivi du temps par chronomètre ou saisie manuelle
+- récapitulatif de progression et temps investi
+- export/import des données
